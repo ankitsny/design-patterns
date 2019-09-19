@@ -1,4 +1,4 @@
-import { IButton } from "./IButton";
+import { IButton } from "../IButton";
 
 export class HTMLButton implements IButton {
   onClick(): void {

@@ -1,5 +1,5 @@
-import { Dialog } from "./Dialog";
-import { IButton } from "./IButton";
+import { Dialog } from "../Dialog";
+import { IButton } from "../IButton";
 import { AndroidButton } from "./AndroidButton";
 
 export class AndroidButtonCreator extends Dialog {

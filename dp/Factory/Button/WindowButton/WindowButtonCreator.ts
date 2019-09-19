@@ -1,5 +1,5 @@
-import { Dialog } from "./Dialog";
-import { IButton } from "./IButton";
+import { Dialog } from "../Dialog";
+import { IButton } from "../IButton";
 import { WindowsButton } from "./WindowsButton";
 
 export class WindowButtonCreator extends Dialog {
