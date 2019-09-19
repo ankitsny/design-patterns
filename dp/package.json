@@ -1,0 +1,15 @@
+{
+  "name": "dp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "Factory/index.js",
+  "scripts": {
+    "st": "tsc ./** --outDir=./dist",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "typescript": "^3.6.3"
+  }
+}
