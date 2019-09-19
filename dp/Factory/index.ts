@@ -1,7 +1,10 @@
-import { HTMLButtonCreator, WindowButtonCreator } from "./Button";
-import { IButton } from "./Button/IButton";
+import {
+  HTMLButtonCreator,
+  WindowButtonCreator,
+  AndroidButtonCreator
+} from "./Button";
+
 import { Dialog } from "./Button/Dialog";
-import { AndroidButtonCreator } from "./Button/AndroidButton/AndroidButtonCreator";
 
 enum Platform {
   WEB,
