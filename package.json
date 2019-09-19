@@ -4,7 +4,7 @@
   "description": "",
   "main": "Factory/index.js",
   "scripts": {
-    "start": "tsc ./**/*.ts --outDir './dist' && node dist/index.js",
+    "tsc": "tsc ./dp/**/*.ts --outDir './dist'",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
