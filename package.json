@@ -4,12 +4,13 @@
   "description": "",
   "main": "Factory/index.js",
   "scripts": {
-    "tsc": "tsc ./dp/**/*.ts --outDir './dist'",
+    "build": "tsc --outDir './dist'",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "@types/node": "^12.12.12",
     "jest": "^24.9.0",
     "typescript": "^3.6.3"
   }
